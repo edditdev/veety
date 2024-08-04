@@ -1,9 +1,9 @@
 # VEETY - Remote Access Trojan 🐀 BETA
 
 Welcome to **VEETY - R.A.T**! 🚀 This repository introduces an innovative and user-friendly Remote Access Tool (R.A.T) that redefines the way you interact with remote systems. 
-!! IT'S BETA - JOIN TO OUR COMMUNITY and BE A EARLY MEMBER!
+<p> !! IT'S BETA - JOIN TO OUR COMMUNITY and BE A EARLY MEMBER! </p>
 
-[![Join Our Community](https://img.shields.io/badge/Join%20Our%20Community-Click%20Here-1E90FF?style=for-the-badge)](https://discord.gg/y3XxfqmmqZ)
+[![Join Our Discord Community](https://img.shields.io/badge/Join%20Our%20Community-Click%20Here-1E90FF?style=for-the-badge)](https://discord.gg/y3XxfqmmqZ)
 
 ![VEETY Screenshot](https://i.imgur.com/fzMQJio.gif)
 
@@ -13,7 +13,7 @@ Welcome to **VEETY - R.A.T**! 🚀 This repository introduces an innovative and 
 VEETY offers a modern and intuitive interface that makes remote access a breeze. No more clunky designs—enjoy a sleek and aesthetically pleasing experience.
 
 ### 🚀 Hassle-Free Networking
-Say goodbye to the complexities of port forwarding and network configurations. VEETY hosts everything for you, making the setup process seamless and straightforward.
+Say goodbye to the complexities of **port forwarding and network configurations**. **VEETY hosts everything for you**, making the setup process **seamless and straightforward**.
 
 ### 🎛 All-In-One Solution
 VEETY combines a Control Panel, builder, and other utilities into a single client:
