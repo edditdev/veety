@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56DA627C-7C99-42B4-9F97-648EC564D891}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>veety.My.MyApplication</StartupObject>
+    <RootNamespace>veety</RootNamespace>
+    <AssemblyName>veety</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>veety.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>veety.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\Documents\GUNA DATA\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoLoad\Counters_script.vb" />
+    <Compile Include="Builder Scripts\BuildApp.vb" />
+    <Compile Include="Login and registration\LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login and registration\LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login and registration\RegisterForm.Designer.vb">
+      <DependentUpon>RegisterForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login and registration\RegisterForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main client\Tabs\Builder.Designer.vb">
+      <DependentUpon>Builder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main client\Tabs\Builder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main client\Tabs\ControlPanel\ControlPanel.Designer.vb">
+      <DependentUpon>ControlPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main client\Tabs\ControlPanel\ControlPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main client\Tabs\ControlPanel\Scripts\LoadOnlineList.vb" />
+    <Compile Include="Main client\Tabs\ControlPanel\Scripts\LoadVictimDetails.vb" />
+    <Compile Include="Main client\Tabs\ControlPanel\ServerPage.Designer.vb">
+      <DependentUpon>ServerPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main client\Tabs\ControlPanel\ServerPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main client\Tabs\veety_page.Designer.vb">
+      <DependentUpon>veety_page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main client\Tabs\veety_page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main client\veety_main.Designer.vb">
+      <DependentUpon>veety_main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main client\veety_main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scripts\Logging\Logging.vb" />
+    <Compile Include="Scripts\Registration\CheckingLicense.vb" />
+    <Compile Include="Scripts\Registration\Registration.vb" />
+    <Compile Include="Scripts\Server\ServerSetup.vb" />
+    <Compile Include="Scripts\Server_Counters\infected_counter.vb" />
+    <Compile Include="Scripts\Server_Counters\logging_counter.vb" />
+    <Compile Include="Scripts\Server_Counters\registration_counter.vb" />
+    <Compile Include="Scripts\Server_Counters\servers_counterz.vb" />
+    <Compile Include="SERVER\SharedData.vb" />
+    <Compile Include="vClient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vClient.Designer.vb">
+      <DependentUpon>vClient.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Login and registration\LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login and registration\RegisterForm.resx">
+      <DependentUpon>RegisterForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main client\Tabs\Builder.resx">
+      <DependentUpon>Builder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main client\Tabs\ControlPanel\ControlPanel.resx">
+      <DependentUpon>ControlPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main client\Tabs\ControlPanel\ServerPage.resx">
+      <DependentUpon>ServerPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main client\Tabs\veety_page.resx">
+      <DependentUpon>veety_page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main client\veety_main.resx">
+      <DependentUpon>veety_main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vClient.resx">
+      <DependentUpon>vClient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="ToDO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\veetyLOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Password.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coronavirus.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Switch Host.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home_uncheck.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SimplyBuilt.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuilderChecked.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Public Serwers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\veety.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Online.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unchck.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tools.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolsChckd.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EyeChckd.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eye.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmilingChckd.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smiling.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Online1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Target.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Web Address.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Administrator Male.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map Pin_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\veety_stub.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
