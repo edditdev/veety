@@ -1,9 +1,9 @@
 ﻿Module SharedData
     '# Serwer
-    Public veety_database As String = "https://edditdev.com/veety/database/"
-    Public veety_servers As String = "https://edditdev.com/veety/servers/"
-    Public veety_all_license As String = "https://edditdev.com/veety/license/licenses"
-    Public veety_counters As String = "https://edditdev.com/veety/other/"
+    Public veety_database As String = "https://edditdev.com/*****/*****/"
+    Public veety_servers As String = "https://edditdev.com/*****/*****/"
+    Public veety_all_license As String = "https://edditdev.com/*****/*****/*****"
+    Public veety_counters As String = "https://edditdev.com/*****/*****/"
 
     '# Veety Inside data
     Public LicensesList As New RichTextBox
