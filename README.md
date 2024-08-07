@@ -4,8 +4,11 @@ Welcome to **VEETY - R.A.T**! 🚀 This repository introduces an innovative and 
 <H2>Hassle-Free Networking | No PORT forwarding and NETWORK configurations R.A.T</H2>
 
 <p> !! IT'S BETA - JOIN TO OUR COMMUNITY and BE A EARLY MEMBER! </p>
+
+
 [![Join Our Community](https://img.shields.io/badge/Join%20Our%20Community-Click%20Here-1E90FF?style=for-the-badge)](https://discord.gg/y3XxfqmmqZ)
-<p></p>
+
+
 ![VEETY Screenshot](https://i.imgur.com/fzMQJio.gif)
 
 ## ✨ Features
