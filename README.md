@@ -6,7 +6,7 @@ Welcome to **VEETY - R.A.T**! 🚀 This repository introduces an innovative and 
 <p> !! IT'S BETA - JOIN TO OUR COMMUNITY and BE A EARLY MEMBER! </p>
 
 
-[![Join Our Community](https://img.shields.io/badge/Join%20Our%20Community-Click%20Here-1E90FF?style=for-the-badge)](https://discord.gg/y3XxfqmmqZ)
+[![Join Our Community](https://img.shields.io/badge/Join%20Our%20Community-Click%20Here-1E90FF?style=for-the-badge)](https://dc.gg/veety)
 
 
 ![VEETY Screenshot](https://i.imgur.com/fzMQJio.gif)
@@ -33,7 +33,7 @@ VEETY is currently in development and has limited functionality. We are actively
 
 ## 🌐 Join Our Community
 
-[![Join Our Community](https://img.shields.io/badge/Join%20Our%20Community-Click%20Here-1E90FF?style=for-the-badge)](https://discord.gg/y3XxfqmmqZ)
+[![Join Our Community](https://img.shields.io/badge/Join%20Our%20Community-Click%20Here-1E90FF?style=for-the-badge)](https://dc.gg/veety)
 
 Your input is crucial in making VEETY better. Whether it's adding new features, improving existing ones, or removing unnecessary components, your suggestions will be taken into account.
 
