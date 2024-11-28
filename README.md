@@ -9,7 +9,7 @@ Welcome to **VEETY - R.A.T**! 🚀 This repository introduces an innovative and 
 [![Join Our Community](https://img.shields.io/badge/Join%20Our%20Community-Click%20Here-1E90FF?style=for-the-badge)](https://dc.gg/veety)
 
 
-![VEETY Screenshot](https://i.imgur.com/fzMQJio.gif)
+![VEETY Screenshot](https://camo.githubusercontent.com/a7f805ad7cba5581881f0c0a3e565178e43b6b53b7a58407eac0221c62683cf0/68747470733a2f2f692e696d6775722e636f6d2f5358656b7938322e676966)
 
 ## ✨ Features
 
