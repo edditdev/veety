@@ -1,4 +1,4 @@
-# VEETY - Remote Access Trojan 🐀 BETA
+# VEETY - R.A.T 🐀 BETA | No port forwarding
 
 Welcome to **VEETY - R.A.T**! 🚀 This repository introduces an innovative and user-friendly Remote Access Tool (R.A.T) that redefines the way you interact with remote systems.
 <H2>Hassle-Free Networking | No PORT forwarding and NETWORK configurations R.A.T</H2>
@@ -42,5 +42,5 @@ Your input is crucial in making VEETY better. Whether it's adding new features, 
 VEETY is intended for authorized testing and educational purposes only. Unauthorized use of VEETY on devices you do not own or have explicit permission to test is illegal and unethical.
 
 ---
-
+no port forwarding.
 Thank you for being a part of the VEETY community! 🌐 Let's build something amazing together.
