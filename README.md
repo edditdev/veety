@@ -1,3 +1,4 @@
+![VEETY Screenshot](https://i.imgur.com/dxEvrgP.png) 
 # VEETY - R.A.T 🐀 BETA | No port forwarding
 
 Welcome to **VEETY - R.A.T**! 🚀 This repository introduces an innovative and user-friendly Remote Access Tool (R.A.T) that redefines the way you interact with remote systems.
@@ -10,11 +11,6 @@ Welcome to **VEETY - R.A.T**! 🚀 This repository introduces an innovative and 
 
   [![Website](https://img.shields.io/badge/Website-1E90FF?style=for-the-badge)](https:veety.xyz/)
 
-
-![VEETY Screenshot](https://i.imgur.com/dxEvrgP.png) 
-
-## ✨ Features
-
 ### 🌟 Innovative & Fresh UI
 VEETY offers a modern and intuitive interface that makes remote access a breeze. No more clunky designs—enjoy a sleek and aesthetically pleasing experience.
 
@@ -22,7 +18,7 @@ VEETY offers a modern and intuitive interface that makes remote access a breeze.
 ![VEETY Screenshot](https://i.imgur.com/BjMoGR1.png) 
 ![VEETY Screenshot](https://i.imgur.com/HVsFnx0.png) 
 ![VEETY Screenshot](https://i.imgur.com/MdOWcxO.png)
-
+Discord grabber, discord token grabber, stealer, password stealer
 ## 🛠 Current Limitations & Community Involvement
 
 VEETY is currently in development and has limited functionality. We are actively growing our community and value your feedback. Join us, share your suggestions, and help shape the future of VEETY!
