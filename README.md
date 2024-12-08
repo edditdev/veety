@@ -18,7 +18,7 @@ VEETY offers a modern and intuitive interface that makes remote access a breeze.
 ![VEETY Screenshot](https://i.imgur.com/BjMoGR1.png) 
 ![VEETY Screenshot](https://i.imgur.com/HVsFnx0.png) 
 ![VEETY Screenshot](https://i.imgur.com/MdOWcxO.png)
-Discord grabber, discord token grabber, stealer, password stealer
+Discord grabber, discord token grabber, stealer, password stealer, cookies stealer, facebook stealer, passwords stealer, free stealer, free rat, no port forwarding rat, rat 2023, rat 2024, rat 2025, new rat, discord rat 2024, discord rat 2025, free rat, free stealer, blank grabber, python grabber, grabbers, token grabbers, password grabber, password stealer tutorial, malyware, free trojan, new rat
 ## 🛠 Current Limitations & Community Involvement
 
 VEETY is currently in development and has limited functionality. We are actively growing our community and value your feedback. Join us, share your suggestions, and help shape the future of VEETY!
