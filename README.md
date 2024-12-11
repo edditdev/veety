@@ -1,5 +1,6 @@
-![VEETY Screenshot](https://i.imgur.com/dxEvrgP.png) 
+![Banner](https://github.com/edditdev/veety/blob/main/Resources/Veety_GIT.png?raw=true)
 # VEETY - R.A.T 🐀 BETA | No port forwarding
+
 
 Welcome to **VEETY - R.A.T**! 🚀 This repository introduces an innovative and user-friendly Remote Access Tool (R.A.T) that redefines the way you interact with remote systems.
 <H2>Hassle-Free Networking | No PORT forwarding and NETWORK configurations R.A.T</H2>
