@@ -7,6 +7,20 @@ Welcome to **VEETY - R.A.T**! 🚀 This repository introduces an innovative and 
 
 <p> !! IT'S BETA - JOIN TO OUR COMMUNITY and BE A EARLY MEMBER! </p>
 
+[![Join Our Community](https://img.shields.io/badge/Join%20Our%20Community-Click%20Here-1E90FF?style=for-the-badge)](https://dc.gg/veety)
+
+  [![Website](https://img.shields.io/badge/Website-1E90FF?style=for-the-badge)](https:veety.xyz/)
+
+### 🌟 Innovative & Fresh UI
+VEETY offers a modern and intuitive interface that makes remote access a breeze. No more clunky designs—enjoy a sleek and aesthetically pleasing experience.
+
+### VIDEO:
+
+[![preview](https://img.youtube.com/vi/-GseKWY9i2c/0.jpg)](https://www.youtube.com/watch?v=-GseKWY9i2c)
+
+
+![VEETY Screenshot](https://i.imgur.com/4Mkut4D.png) 
+commands available on https://commands.eddit.me/ too
 | **Command**      | **Description**                                      | **Status**         | **Action**          |
 |------------------|------------------------------------------------------|--------------------|---------------------|
 | `ip`            | Retrieve the IP address of the target device.        | ✅ **Working**     | `ip`                |
@@ -32,21 +46,7 @@ Welcome to **VEETY - R.A.T**! 🚀 This repository introduces an innovative and 
 
 ### Usage:
 To copy a command, use the following syntax in the terminal:
-```
 
-[![Join Our Community](https://img.shields.io/badge/Join%20Our%20Community-Click%20Here-1E90FF?style=for-the-badge)](https://dc.gg/veety)
-
-  [![Website](https://img.shields.io/badge/Website-1E90FF?style=for-the-badge)](https:veety.xyz/)
-
-### 🌟 Innovative & Fresh UI
-VEETY offers a modern and intuitive interface that makes remote access a breeze. No more clunky designs—enjoy a sleek and aesthetically pleasing experience.
-
-### VIDEO:
-
-[![preview](https://img.youtube.com/vi/-GseKWY9i2c/0.jpg)](https://www.youtube.com/watch?v=-GseKWY9i2c)
-
-
-![VEETY Screenshot](https://i.imgur.com/4Mkut4D.png) 
 ![VEETY Screenshot](https://i.imgur.com/BjMoGR1.png) 
 ![VEETY Screenshot](https://i.imgur.com/HVsFnx0.png) 
 ![VEETY Screenshot](https://i.imgur.com/MdOWcxO.png)
