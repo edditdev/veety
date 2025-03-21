@@ -1,5 +1,4 @@
-Okej, oto plik README po angielsku, z fajnym formatowaniem i przyciskami, konkretnie pod VERSAL:
-
+## www.versal.pw \ www.versal.codes
 ---
 
 # VERSAL 🐀 | No Port Forwarding RAT
